@@ -2,15 +2,14 @@ function goPage(url, time) {
     setTimeout(() => window.location.href=url, time);
 }
 
-var password = 0000;
-var input;
-
-while(password!=input){
-    input=prompt("請輸入密碼");
+var pass = 0000;
+function passgoPage(url, time) {
+    var password = document.getElementById("password").value;
+        if(pass == password){
+            alert("登入成功");
+            setTimeout(() => window.location.href=url, time);}
+        else{
+            alert("密碼錯誤");
+        }
 }
 
-alert("登入成功")
-
-if(password=input){
-    location.href = 'https://sarthurx.tk/header.html';
-}
