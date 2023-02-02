@@ -5,7 +5,7 @@ function goPage(url, time) {
 var pass = 0000;
 function passgoPage(url, time) {
     var password = document.getElementById("password").value;
-        if(pass == password){
+        if(pass == password&&password!=""){
             alert("登入成功");
             setTimeout(() => window.location.href=url, time);}
         else{
