@@ -1,3 +1,4 @@
+/*
 const { createApp, ref } = Vue;
   const vm = createApp({
       setup (){
@@ -6,3 +7,4 @@ const { createApp, ref } = Vue;
       }
   });
 vm.mount('#app');
+*/

@@ -12,4 +12,3 @@ function passgoPage(url, time) {
             alert("密碼錯誤");
         }
 }
-
